@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.*;
 
 
-public class HelloWorld {
+public class Main {
 
     public static void main(String[] args) throws BadLocationException {
         DefaultStyledDocument styledDoc = null;
