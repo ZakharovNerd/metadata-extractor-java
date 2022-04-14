@@ -1,4 +1,4 @@
-package com.jumpstart;
+package pdftest.src.main.java.com.jumpstart;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.rtf.RTFEditorKit;
@@ -6,13 +6,13 @@ import java.io.IOException;
 import java.io.*;
 
 
-public class Main {
+public class Extractor {
 
-    public static void main(String[] args) throws BadLocationException {
+    public void extract(String file_name) throws BadLocationException {
         DefaultStyledDocument styledDoc = null;
         try {
             styledDoc = new DefaultStyledDocument();
-            InputStream is = new FileInputStream(args[0]);
+            InputStream is = new FileInputStream(file_name);
             new RTFEditorKit().read(is, styledDoc, 0);
 
         } catch (BadLocationException e) {
