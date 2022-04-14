@@ -22,7 +22,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>pdftest.src.main.java.com.start.Main</mainClass>
+                            <mainClass>com.start.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
