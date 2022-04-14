@@ -8,7 +8,7 @@ import java.io.*;
 
 public class HelloWorld {
 
-    public static String Main(String[] args) throws BadLocationException {
+    public static void main(String[] args) throws BadLocationException {
         DefaultStyledDocument styledDoc = null;
         try {
             styledDoc = new DefaultStyledDocument();
@@ -20,6 +20,6 @@ public class HelloWorld {
         } catch (IOException e) {
             System.out.println("IOException occurred when extracting text from RTF file");
         }
-        return styledDoc.getText(0, styledDoc.getLength());
+        System.out.println(styledDoc.getText(0, styledDoc.getLength()));
     }
 }
