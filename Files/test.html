@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)https://jsoup.org/cookbook/input/load-document-from-file -->
+<html lang="ru" class="translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <title>Load a Document from a File: jsoup Java HTML parser</title> 
+   
+  <meta name="keywords" content="parse, file, load, HTML"> 
+  <meta name="description" content="How to load HTML from a file in Java."> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link type="text/css" rel="stylesheet" href="./Load a Document from a File_ jsoup Java HTML parser_files/style.css"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:site" content="@jhy"> 
+  <meta name="twitter:title" content="Load a Document from a File"> 
+  <meta name="twitter:description" content="How to load HTML from a file in Java."> 
+  <meta name="twitter:image" content="https://jsoup.org/rez/jsoup%20logo%20twitter.png"> 
+ <link type="text/css" rel="stylesheet" charset="UTF-8" href="./Load a Document from a File_ jsoup Java HTML parser_files/translateelement.css"></head> 
+ <body class="n1-cookbook"> 
+  <div class="wrap"> 
+   <div class="header"> 
+    <div class="nav-sections"> 
+     <ul> 
+      <li class="n1-home"><h4><a href="https://jsoup.org/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">суп</font></font></a></h4></li> 
+      <li class="n1-news"><a href="https://jsoup.org/news/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Новости</font></font></a></li> 
+      <li class="n1-bugs"><a href="https://jsoup.org/bugs"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ошибки</font></font></a></li> 
+      <li class="n1-discussion"><a href="https://jsoup.org/discussion"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Обсуждение</font></font></a></li> 
+      <li class="n1-download"><a href="https://jsoup.org/download"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Скачать</font></font></a></li> 
+      <li class="n1-api"><a href="https://jsoup.org/apidocs/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Справочник по API</font></font></a></li> 
+      <li class="n1-cookbook"><a href="https://jsoup.org/cookbook/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Кулинарная книга</font></font></a></li> 
+      <li class="n1-try"><a href="https://try.jsoup.org/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Попробуйте jsoup</font></font></a></li> 
+     </ul> 
+    </div> 
+   </div> 
+   <div class="breadcrumb" itemscope="" itemtype="http://schema.org/BreadcrumbList"> <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"> <a href="https://jsoup.org/" itemprop="item"><span itemprop="name"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsoup</font></font></span></a> 
+     <meta itemprop="position" content="1"> </span> <span class="seperator"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> »</font></font></span> <font style="vertical-align: inherit;"><span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="https://jsoup.org/cookbook/" itemprop="item"><span itemprop="name"><font style="vertical-align: inherit;"> Cookbook</font></span></a></span><span class="seperator"><font style="vertical-align: inherit;"> »</font></span><span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a href="https://jsoup.org/cookbook/input/" itemprop="item"><span itemprop="name"><font style="vertical-align: inherit;"> Ввод</font></span></a></span><span class="seperator"><font style="vertical-align: inherit;"> »</font></span><span itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><span itemprop="name"><font style="vertical-align: inherit;"> Загрузить документ из файла</font></span></span></font><span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"> <a href="https://jsoup.org/cookbook/" itemprop="item"><span itemprop="name"><font style="vertical-align: inherit;"></font></span></a> 
+     <meta itemprop="position" content="2"> </span> <span class="seperator"><font style="vertical-align: inherit;"></font></span> <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"> <a href="https://jsoup.org/cookbook/input/" itemprop="item"><span itemprop="name"><font style="vertical-align: inherit;"></font></span></a> 
+     <meta itemprop="position" content="3"> </span> <span class="seperator"><font style="vertical-align: inherit;"></font></span> <span itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"> <span itemprop="name"><font style="vertical-align: inherit;"></font></span> 
+     <meta itemprop="position" content="4"> </span> 
+   </div> 
+   <div class="content"> 
+    <div class="col1"> 
+     <div class="recipe"> 
+      <h1><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Загрузить документ из файла</font></font></h1> 
+      <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Проблема</font></font></h2> 
+      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">У вас есть файл на диске, содержащий HTML, который вы хотите загрузить и проанализировать, а затем, возможно, обработать или извлечь из него данные.</font></font></p> 
+      <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Решение</font></font></h2> 
+      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Используйте статический </font></font><code><a href="https://jsoup.org/apidocs/org/jsoup/Jsoup.html#parse(java.io.File,java.lang.String,java.lang.String)" title="Parse the contents of a file as HTML.">Jsoup.parse(File in, String charsetName, String baseUri)</a></code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">метод:</font></font></p> 
+      <pre><code class="prettyprint"><span class="typ">File</span><span class="pln"> input </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> </span><span class="typ">File</span><span class="pun">(</span><span class="str">"/tmp/input.html"</span><span class="pun">);</span><span class="pln"><br></span><span class="typ">Document</span><span class="pln"> doc </span><span class="pun">=</span><span class="pln"> </span><span class="typ">Jsoup</span><span class="pun">.</span><span class="pln">parse</span><span class="pun">(</span><span class="pln">input</span><span class="pun">,</span><span class="pln"> </span><span class="str">"UTF-8"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"http://example.com/"</span><span class="pun">);</span></code></pre> 
+      <h2><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Описание</font></font></h2> 
+      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Метод </font></font><code><a href="https://jsoup.org/apidocs/org/jsoup/Jsoup.html#parse(java.io.File,java.lang.String,java.lang.String)" title="Parse the contents of a file as HTML.">parse(File in, String charsetName, String baseUri)</a></code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">загружает и анализирует файл HTML. </font><font style="vertical-align: inherit;">Если при загрузке файла возникает ошибка, он выдает ошибку </font></font><code>IOException</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, которую следует обработать соответствующим образом.</font></font></p> 
+      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Параметр </font></font><code><a href="https://jsoup.org/apidocs/org/jsoup/parser/HtmlTreeBuilder.html#baseUri">baseUri</a></code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">используется синтаксическим анализатором для разрешения относительных URL-адресов в документе до того, как </font></font><code>&lt;base href&gt;</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">элемент будет найден. </font><font style="vertical-align: inherit;">Если это вас не беспокоит, вместо этого вы можете передать пустую строку.</font></font></p> 
+      <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Существует родственный метод, </font></font><code><a href="https://jsoup.org/apidocs/org/jsoup/Jsoup.html#parse(java.io.File,java.lang.String)" title="Parse the contents of a file as HTML.">parse(File in, String charsetName)</a></code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">который использует местоположение файла в качестве </font></font><code><a href="https://jsoup.org/apidocs/org/jsoup/parser/HtmlTreeBuilder.html#baseUri">baseUri</a></code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">. </font><font style="vertical-align: inherit;">Это полезно, если вы работаете с локальным сайтом файловой системы, и относительные ссылки, на которые он указывает, также находятся в файловой системе.</font></font></p> 
+     </div> 
+    </div><!-- /col1 --> 
+    <div class="col2"> 
+     <div class="toc box"> 
+      <h2><a href="https://jsoup.org/cookbook/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Содержание поваренной книги</font></font></a></h2> 
+      <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вступление</font></font></h3> 
+      <ol start="1"> 
+       <li><a href="https://jsoup.org/cookbook/introduction/parsing-a-document"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Разбор и обход документа</font></font></a></li> 
+      </ol> 
+      <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Вход</font></font></h3> 
+      <ol start="2"> 
+       <li><a href="https://jsoup.org/cookbook/input/parse-document-from-string"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Разобрать документ из строки</font></font></a></li> 
+       <li><a href="https://jsoup.org/cookbook/input/parse-body-fragment"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Разбор фрагмента тела</font></font></a></li> 
+       <li><a href="https://jsoup.org/cookbook/input/load-document-from-url"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Загрузить документ из URL-адреса</font></font></a></li> 
+       <li class="activePage"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Загрузить документ из файла</font></font></li> 
+      </ol> 
+      <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Извлечение данных</font></font></h3> 
+      <ol start="6"> 
+       <li><a href="https://jsoup.org/cookbook/extracting-data/dom-navigation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Используйте методы DOM для навигации по документу</font></font></a></li> 
+       <li><a href="https://jsoup.org/cookbook/extracting-data/selector-syntax"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Используйте синтаксис селектора для поиска элементов</font></font></a></li> 
+       <li><a href="https://jsoup.org/cookbook/extracting-data/attributes-text-html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Извлечение атрибутов, текста и HTML из элементов</font></font></a></li> 
+       <li><a href="https://jsoup.org/cookbook/extracting-data/working-with-urls"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Работа с URL-адресами</font></font></a></li> 
+       <li><a href="https://jsoup.org/cookbook/extracting-data/example-list-links"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Пример программы: список ссылок</font></font></a></li> 
+      </ol> 
+      <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Изменение данных</font></font></h3> 
+      <ol start="11"> 
+       <li><a href="https://jsoup.org/cookbook/modifying-data/set-attributes"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Установить значения атрибутов</font></font></a></li> 
+       <li><a href="https://jsoup.org/cookbook/modifying-data/set-html"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Установить HTML элемента</font></font></a></li> 
+       <li><a href="https://jsoup.org/cookbook/modifying-data/set-text"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Установка текстового содержимого элементов</font></font></a></li> 
+      </ol> 
+      <h3><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Очистка HTML</font></font></h3> 
+      <ol start="14"> 
+       <li><a href="https://jsoup.org/cookbook/cleaning-html/safelist-sanitizer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Дезинфекция ненадежного HTML (для предотвращения XSS)</font></font></a></li> 
+      </ol> 
+     </div> 
+    </div><!-- /col2 --> 
+   </div><!-- /content--> 
+   <div class="footer"> <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">jsoup Парсер HTML</font></font></b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> © 2009 - 2021 </font></font><a href="https://jhy.io/" rel="author"><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Джонатан Хедли</font></font></b></a> 
+   </div> 
+  </div><!-- /wrap --> 
+  <script src="./Load a Document from a File_ jsoup Java HTML parser_files/highlight.js" async=""></script> 
+  <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-89734-10','auto');ga('send', 'pageview');</script>
+  <script async="" src="./Load a Document from a File_ jsoup Java HTML parser_files/analytics.js"></script><div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="./Load a Document from a File_ jsoup Java HTML parser_files/translate_24dp.png" width="20" height="20" alt="Google Переводчик"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">Исходный текст</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">Предложить лучший вариант перевода</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div>
+ 
+<div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div></body></html>
