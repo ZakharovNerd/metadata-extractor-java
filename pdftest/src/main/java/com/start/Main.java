@@ -1,12 +1,15 @@
-package pdftest.src.main.java.com.start;
-import pdftest.src.main.java.com.jumpstart.Extractor;
+package com.start;
+import com.jumpstart.Extractor;
+import com.jumpstart.HtmlParser;
 import javax.swing.text.BadLocationException;
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) throws BadLocationException {
+    public static void main(String[] args) throws IOException {
         for (String file_name : args) {
-            Extractor extr = new Extractor();
-            extr.extract(file_name);
+            HtmlParser extr = new HtmlParser();
+            System.out.println(file_name);
+            extr.parse(file_name);
         }
     }
 }
