@@ -1,4 +1,4 @@
-package pdftest.src.main.java.com.jumpstart;
+package com.jumpstart;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.rtf.RTFEditorKit;
