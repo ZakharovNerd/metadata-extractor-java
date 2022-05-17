@@ -1,0 +1,102 @@
+
+------------------------------- C:\Users\60118610\IdeaProjects\metadata-extractor-java\Files\test.rtf -------------------------------
+Lorem ipsum 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac faucibus odio. 
+
+Vestibulum neque massa, scelerisque sit amet ligula eu, congue molestie mi. Praesent ut varius sem. Nullam at porttitor arcu, nec lacinia nisi. Ut ac dolor vitae odio interdum condimentum. Vivamus dapibus sodales ex, vitae malesuada ipsum cursus convallis. Maecenas sed egestas nulla, ac condimentum orci. Mauris diam felis, vulputate ac suscipit et, iaculis non est. Curabitur semper arcu ac ligula semper, nec luctus nisl blandit. Integer lacinia ante ac libero lobortis imperdiet. Nullam mollis convallis ipsum, ac accumsan nunc vehicula vitae. Nulla eget justo in felis tristique fringilla. Morbi sit amet tortor quis risus auctor condimentum. Morbi in ullamcorper elit. Nulla iaculis tellus sit amet mauris tempus fringilla.
+Maecenas mauris lectus, lobortis et purus mattis, blandit dictum tellus.
+	Maecenas non lorem quis tellus placerat varius. 
+	Nulla facilisi. 
+	Aenean congue fringilla justo ut aliquam. 
+	Nunc vulputate neque vitae justo facilisis, non condimentum ante sagittis. 
+	Morbi viverra semper lorem nec molestie. 
+	Maecenas tincidunt est efficitur ligula euismod, sit amet ornare est vulputate.
+
+
+
+In non mauris justo. Duis vehicula mi vel mi pretium, a viverra erat efficitur. Cras aliquam est ac eros varius, id iaculis dui auctor. Duis pretium neque ligula, et pulvinar mi placerat et. Nulla nec nunc sit amet nunc posuere vestibulum. Ut id neque eget tortor mattis tristique. Donec ante est, blandit sit amet tristique vel, lacinia pulvinar arcu. Pellentesque scelerisque fermentum erat, id posuere justo pulvinar ut. Cras id eros sed enim aliquam lobortis. Sed lobortis nisl ut eros efficitur tincidunt. Cras justo mi, porttitor quis mattis vel, ultricies ut purus. Ut facilisis et lacus eu cursus.
+In eleifend velit vitae libero sollicitudin euismod. Fusce vitae vestibulum velit. Pellentesque vulputate lectus quis pellentesque commodo. Aliquam erat volutpat. Vestibulum in egestas velit. Pellentesque fermentum nisl vitae fringilla venenatis. Etiam id mauris vitae orci maximus ultricies. 
+
+Cras fringilla ipsum magna, in fringilla dui commodo a.
+
+Lorem ipsumLorem ipsumLorem ipsum1In eleifend velit vitae libero sollicitudin euismod.Lorem2Cras fringilla ipsum magna, in fringilla dui commodo a.Ipsum3Fusce vitae vestibulum velit. Lorem4Etiam vehicula luctus fermentum.Ipsum
+Etiam vehicula luctus fermentum. In vel metus congue, pulvinar lectus vel, fermentum dui. Maecenas ante orci, egestas ut aliquet sit amet, sagittis a magna. Aliquam ante quam, pellentesque ut dignissim quis, laoreet eget est. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut ullamcorper justo sapien, in cursus libero viverra eget. Vivamus auctor imperdiet urna, at pulvinar leo posuere laoreet. Suspendisse neque nisl, fringilla at iaculis scelerisque, ornare vel dolor. Ut et pulvinar nunc. Pellentesque fringilla mollis efficitur. Nullam venenatis commodo imperdiet. Morbi velit neque, semper quis lorem quis, efficitur dignissim ipsum. Ut ac lorem sed turpis imperdiet eleifend sit amet id sapien.
+Maecenas non lorem quis tellus placerat varius. Nulla facilisi. Aenean congue fringilla justo ut aliquam. Mauris id ex erat. Nunc vulputate neque vitae justo facilisis, non condimentum ante sagittis. Morbi viverra semper lorem nec molestie. Maecenas tincidunt est efficitur ligula euismod, sit amet ornare est vulputate.
+
+
+
+
+
+
+Maecenas non lorem quis tellus placerat varius. Nulla facilisi. Aenean congue fringilla justo ut aliquam. Mauris id ex erat. Nunc vulputate neque vitae justo facilisis, non condimentum ante sagittis. Morbi viverra semper lorem nec molestie. Maecenas tincidunt est efficitur ligula euismod, sit amet ornare est vulputate.
+
+In non mauris justo. Duis vehicula mi vel mi pretium, a viverra erat efficitur. Cras aliquam est ac eros varius, id iaculis dui auctor. Duis pretium neque ligula, et pulvinar mi placerat et. Nulla nec nunc sit amet nunc posuere vestibulum. Ut id neque eget tortor mattis tristique. Donec ante est, blandit sit amet tristique vel, lacinia pulvinar arcu. Pellentesque scelerisque fermentum erat, id posuere justo pulvinar ut. Cras id eros sed enim aliquam lobortis. Sed lobortis nisl ut eros efficitur tincidunt. Cras justo mi, porttitor quis mattis vel, ultricies ut purus. Ut facilisis et lacus eu cursus.In eleifend velit vitae libero sollicitudin euismod. 
+
+
+
+
+
+
+Fusce vitae vestibulum velit. Pellentesque vulputate lectus quis pellentesque commodo. Aliquam erat volutpat. Vestibulum in egestas velit. Pellentesque fermentum nisl vitae fringilla venenatis. Etiam id mauris vitae orci maximus ultricies. Cras fringilla ipsum magna, in fringilla dui commodo a.
+Etiam vehicula luctus fermentum. In vel metus congue, pulvinar lectus vel, fermentum dui. Maecenas ante orci, egestas ut aliquet sit amet, sagittis a magna. Aliquam ante quam, pellentesque ut dignissim quis, laoreet eget est. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut ullamcorper justo sapien, in cursus libero viverra eget. Vivamus auctor imperdiet urna, at pulvinar leo posuere laoreet. Suspendisse neque nisl, fringilla at iaculis scelerisque, ornare vel dolor. Ut et pulvinar nunc. Pellentesque fringilla mollis efficitur. Nullam venenatis commodo imperdiet. Morbi velit neque, semper quis lorem quis, efficitur dignissim ipsum. Ut ac lorem sed turpis imperdiet eleifend sit amet id sapien.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+
+Nunc ac faucibus odio. Vestibulum neque massa, scelerisque sit amet ligula eu, congue molestie mi. Praesent ut varius sem. Nullam at porttitor arcu, nec lacinia nisi. Ut ac dolor vitae odio interdum condimentum. Vivamus dapibus sodales ex, vitae malesuada ipsum cursus convallis. Maecenas sed egestas nulla, ac condimentum orci. Mauris diam felis, vulputate ac suscipit et, iaculis non est. Curabitur semper arcu ac ligula semper, nec luctus nisl blandit. Integer lacinia ante ac libero lobortis imperdiet. Nullam mollis convallis ipsum, ac accumsan nunc vehicula vitae. Nulla eget justo in felis tristique fringilla. Morbi sit amet tortor quis risus auctor condimentum. Morbi in ullamcorper elit. Nulla iaculis tellus sit amet mauris tempus fringilla.
+Maecenas mauris lectus, lobortis et purus mattis, blandit dictum tellus. 
+Maecenas non lorem quis tellus placerat varius. Nulla facilisi. Aenean congue fringilla justo ut aliquam. Mauris id ex erat. Nunc vulputate neque vitae justo facilisis, non condimentum ante sagittis. Morbi viverra semper lorem nec molestie. Maecenas tincidunt est efficitur ligula euismod, sit amet ornare est vulputate.
+
+
+
+
+
+
+
+Nunc ac faucibus odio. Vestibulum neque massa, scelerisque sit amet ligula eu, congue molestie mi. Praesent ut varius sem. Nullam at porttitor arcu, nec lacinia nisi. Ut ac dolor vitae odio interdum condimentum. Vivamus dapibus sodales ex, vitae malesuada ipsum cursus convallis. Maecenas sed egestas nulla, ac condimentum orci. Mauris diam felis, vulputate ac suscipit et, iaculis non est. Curabitur semper arcu ac ligula semper, nec luctus nisl blandit. Integer lacinia ante ac libero lobortis imperdiet. Nullam mollis convallis ipsum, ac accumsan nunc vehicula vitae. 
+
+--------------------------------------------------------------
+
+------------------------------- C:\Users\60118610\IdeaProjects\metadata-extractor-java\Files\test1.html -------------------------------
+БлогКурсыО насБлогКурсыО насRUBUSDBYNRUBВойтиАвторизацияGOOGLEилиЗабыли пароль?Запомнить меняРегистрацияНа главнуюJavaJava SEКак создать Jar файл в MavenКак создать Jar файл в MavenВ этом уроке я покажу вам, как использовать Maven для создания Java проекта и упаковать его в *.jar файл, а также как сделать его исполняемым.1) Создание Maven проекта.Есть два способа создать Maven project:1. С помощью maven command:$ mvn archetype:generate -DgroupId=com.devcolibri.core -DartifactId=projectMy -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false2. С иcпользованием IDE, в моем случае это Intellij IDEA 11.32. Создание jar файлаЧтобы создать jar файл нам потребуется добавить в конфигурационный Maven файлpom.xml.В этом файле в теге<pagckaging>jar</pagckaging><project xmlns="http://maven.apache.org/POM/4.0.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+	http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.devcolibri.core</groupId>
+	<artifactId>projectMy</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0</version>
+	<name>projectMy</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<jdk.version>1.6</jdk.version>
+	</properties>
+
+	<build>
+	<plugins>
+	  <plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-compiler-plugin</artifactId>
+		<version>2.3.2</version>
+		<configuration>
+			<source>${jdk.version}</source>
+			<target>${jdk.version}</target>
+		</configuration>
+	  </plugin>
+	</plugins>
+	</build>
+</project>Если вы попытаетесь собрать проект Maven, Maven упакует этот проект в “jar” файл с именем , найти этот файл вы можете в корне проекта в папке ."projectMy-1.0.jar"target3. Делаем *.jar исполняемым.Для того, чтобы *.jar файл был исполняемый, мы должны объявить точку входа в приложениe через вmaven-jar-pluginpom.xml<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-jar-plugin</artifactId>
+  <version>2.4</version>
+  <configuration>
+	<archive>
+		<manifest>
+			<mainClass>com.devcolibri.core.Main</mainClass>
+		</manifest>
+	</archive>
+  </configuration>
+ </plugin>Чтобы выполнить jar файл, используйте :java -jar$ java -jar superman-1.0.jar 
+Hello World!ПОХОЖИЕ ПУБЛИКАЦИИNone Found7355419/11/201215 комментариев к статье "Как создать Jar файл в Maven"vova25/03/2013 в 11:48 ппВойдите, чтобы ответитьПолезная статья!!!!Александр Барчук25/03/2013 в 11:49 ппВойдите, чтобы ответитьСпасибо!Alexander11/07/2013 в 9:22 ппВойдите, чтобы ответитьОгромное спасибо за статью! Все предельно просто и ясно рассказано.jar08/09/2014 в 9:21 дпВойдите, чтобы ответитьНеплохо было бы показать, как использовать различные ресурсы: файлы конфигурации, рисунки, чтобы при запуске джарника не было с этим проблем.Влад16/09/2014 в 4:19 ппВойдите, чтобы ответитьПервое, что хочу сказать спасибо за уроки. Конкретно по этому уроку: Ругается на ошибку в строке – 2.3.2 Пишет plugin …. not foundАлександр Барчук17/09/2014 в 9:54 дпВойдите, чтобы ответитьВозможно плагин устарел, посмотрите в Maven Repository новую версию этого плагина.Влад17/09/2014 в 1:31 ппВойдите, чтобы ответитьБлагодарю за ответ. Посмотрю. Самое главное, что у меня джарник не делается… Я создал пакет и в нем класс с кодом, тогда появилась папка target, а в ней classes и generated-sources, но jar никак нету =(Влад17/09/2014 в 3:55 ппВойдите, чтобы ответитьНебыло файла settings с прописанной проксей… Так все нормально, только приходится в манифест в ручную дописывать мейн класс, сам по себе Мавен его не генеритАлексей16/02/2015 в 11:04 дпВойдите, чтобы ответитьУ меня не появляется jar файл, не подскажешь почему?Максим24/07/2015 в 11:53 дпВойдите, чтобы ответитьДобавь в pom shade plugin, он соберет в jarDima16/09/2015 в 4:24 ппВойдите, чтобы ответитьСпасибо за статью! Подскажите, в строчке com.devcolibri.core.Main путь к директории с главным классом? У меня App.java находится в D:\Hello\SayHello\src\main\java\com\mycompany\sayhello\ Как должна выглядеть строчка?Dario23/02/2017 в 7:45 дпВойдите, чтобы ответитьДа. У тебя будет com.mycompany.sayhello.App очевидно. См. описание формата файла манифеста у JAR.Егор28/03/2016 в 10:30 дпВойдите, чтобы ответитьХотелось бы видеть как собирать проект с нуля в командной строке и как подключать maven к готовому проектуStas18/08/2016 в 1:59 ппВойдите, чтобы ответитьПодскажите как сделать если мой исполняемый файл требует параметры.Abdulaziz04/05/2019 в 9:15 дпВойдите, чтобы ответитьError: -jar requires jar file specification в чем может быт проблема подскажите пожл.Добавить комментарийОтменить ответДля отправки комментария вам необходимо .авторизоватьсяНайти:Рекомендуемые курсыПрофессия Android разработчика5ОТКРЫТОDevcolibri697Android программирование для начинающих5ОТКРЫТОDevcolibri2133Android Twitter-приложение. Второй модуль56,500₽5,200₽Devcolibri83Android Twitter-приложение. Первый модуль5ОТКРЫТОDevcolibri1620Программирование на языке Java для начинающих4.8ОТКРЫТОАлександр Барчук4225вверхО компании|Договор|Оплата|Покупка© 2022 Devcolibri teamСайт использует cookie-файлы для того, чтобы вам было удобнее им пользоваться. Для продолжения работы с сайтом, вам необходимо принять использование cookie-файлов.Я ознакомлен(а)
+--------------------------------------------------------------

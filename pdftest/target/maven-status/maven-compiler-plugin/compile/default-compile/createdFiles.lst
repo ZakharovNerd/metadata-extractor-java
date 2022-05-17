@@ -1,5 +1,5 @@
-com/fileTypeAnalyzer/detectType.class
-com/start/Main.class
-com/Parsers/HtmlParser.class
-com/Parsers/Parser.class
-com/Parsers/RtfParser.class
+com\fileTypeAnalyzer\detectType.class
+com\Parsers\HtmlParser.class
+com\Parsers\Parser.class
+com\start\Main.class
+com\Parsers\RtfParser.class

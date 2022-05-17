@@ -1,2 +1,5 @@
 .vscode
 .idea
+.gitignore
+pdftest/target
+.DS_Store

@@ -14,25 +14,15 @@ import com.fileTypeAnalyzer.detectType;
 
 
 public class Main {
-    public static String Detect_type(String file_name) {
+
+    public static String Detect_type(String file_name) throws IOException {
 //        TODO need to write type detector
-//        String fileType = null;
-//        detectType detect = new detectType();
-//        try {
-//            if (detect.detector(file_name, "{\\rtf"))
-//                fileType = "rtf";
-//            else if (detect.detector(file_name, "<!doctype>"))
-//                fileType = "html";
-//        } catch (IOException e) {
-//            System.out.println("IOException occurred when extracting text from HTML file: " + file_name);
-//        }
-//        return fileType;
-        if (file_name.substring(file_name.indexOf("."), file_name.length()).equals(".html")) {
-            return "html";
-        } else if  (file_name.substring(file_name.indexOf("."), file_name.length()).equals(".rtf")) {
-            return "rtf";
-        }
-        return "";
+        String fileType = "";
+        detectType detect = new detectType();
+        if (detect.detector(file_name, "{\\rtf")) fileType = "rtf";
+        else if (detect.detector(file_name, "<!DOCTYPE")) fileType = "html";
+
+        return fileType;
     }
 
 
@@ -67,7 +57,7 @@ public class Main {
         boolean parsed = false;
 
         for (File file_name : fileList) {
-            type_of_file = Detect_type(file_name.getName());//should be file_name.getAbsolutePath()!!!!!!!
+            type_of_file = Detect_type(file_name.getAbsolutePath());//should be file_name.getAbsolutePath()!!!!!!!
             if (type_of_file.equals("html")) {
                 Parser technology = new HtmlParser();
                 technology.Parse(file_name.getAbsolutePath());
