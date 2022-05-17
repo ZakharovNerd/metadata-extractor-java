@@ -48,14 +48,12 @@ public class Main {
             }
         }
 
-=======
         String fileType = null;
         detectType detect = new detectType();
         if (detect.detector(file_name, "{\\rtf")) fileType = "rtf";
         else if (detect.detector(file_name, "<!doctype>")) fileType = "html";
 
         return fileType;
->>>>>>> 004f9e2b44cfd27211a146152501b5fc657a48d3
     }
 
 
@@ -73,15 +71,12 @@ public class Main {
             return;
         }
         String type_of_file = "";
-<<<<<<< HEAD
         boolean parsed = false;
         for (File file_name : fileList) {
             System.out.println(file_name.getName());
             type_of_file = Detect_type(file_name.getName());//should be file_name.getAbsolutePath()!!!!!!!
-=======
         for (String file_name : args) {
             type_of_file = detectType(file_name);
->>>>>>> 004f9e2b44cfd27211a146152501b5fc657a48d3
             System.out.println(type_of_file);
             if (type_of_file.equals("html")) {
                 Parser technology = new HtmlParser();
@@ -89,7 +84,6 @@ public class Main {
                 parsed = true;
             } else if (type_of_file.equals("rtf")) {
                 Parser technology = new RtfParser();
-<<<<<<< HEAD
                 technology.Parse(file_name.getAbsolutePath());
                 parsed = true;
             }
@@ -97,11 +91,9 @@ public class Main {
                 System.out.println("in cond to moove file in parsed dir");
                 parsed = false;
                 file_name.renameTo(new File(pared_dir, file_name.getName()));
-=======
                 technology.Parse(file_name);
             } else if (type_of_file.equals(null)) {
                 System.out.println("input is not html or rtf file");
->>>>>>> 004f9e2b44cfd27211a146152501b5fc657a48d3
             }
         }
     }
