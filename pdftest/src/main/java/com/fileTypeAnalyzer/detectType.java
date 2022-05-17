@@ -1,4 +1,4 @@
-package pdftest.src.main.java.com.fileTypeAnalyzer;
+package com.fileTypeAnalyzer;
 import java.io.*;
 import java.util.Arrays;
 

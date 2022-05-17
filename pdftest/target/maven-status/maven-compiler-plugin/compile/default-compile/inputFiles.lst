@@ -1,3 +1,5 @@
-/Users/mihailturcaninov/3_year/java/project1/metadata-extractor-java/pdftest/src/main/java/com/jumpstart/HtmlParser.java
-/Users/mihailturcaninov/3_year/java/project1/metadata-extractor-java/pdftest/src/main/java/com/jumpstart/Extractor.java
+/Users/mihailturcaninov/3_year/java/project1/metadata-extractor-java/pdftest/src/main/java/com/Parsers/RtfParser.java
+/Users/mihailturcaninov/3_year/java/project1/metadata-extractor-java/pdftest/src/main/java/com/Parsers/Parser.java
+/Users/mihailturcaninov/3_year/java/project1/metadata-extractor-java/pdftest/src/main/java/com/fileTypeAnalyzer/detectType.java
+/Users/mihailturcaninov/3_year/java/project1/metadata-extractor-java/pdftest/src/main/java/com/Parsers/HtmlParser.java
 /Users/mihailturcaninov/3_year/java/project1/metadata-extractor-java/pdftest/src/main/java/com/start/Main.java

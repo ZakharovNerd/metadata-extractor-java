@@ -1,5 +1,13 @@
+<<<<<<< HEAD
+com/start/Main.class
+com/Parsers/HtmlParser.class
+com/Parsers/Parser.class
+com/fileTypeAnalyzer/detectType.class
+com/Parsers/RtfParser.class
+=======
 com\Parsers\Parser.class
 pdftest\src\main\java\com\fileTypeAnalyzer\detectType.class
 com\start\Main.class
 com\Parsers\HtmlParser.class
 com\Parsers\RtfParser.class
+>>>>>>> 004f9e2b44cfd27211a146152501b5fc657a48d3
