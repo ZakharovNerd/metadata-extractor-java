@@ -51,8 +51,10 @@ public class Main {
 
     public static void main(String[] args) throws BadLocationException, IOException {
         ArrayList<File> fileList = new ArrayList<>();
-        File pared_dir = new File(args[0]+"/Parsed");
-        File root = new File(args[0]);
+
+        File root = new File("Files");
+        System.out.println(root.getAbsolutePath());
+        File pared_dir = new File(root.getAbsolutePath() + "/Parsed");
         if (!pared_dir.exists()) {
             pared_dir.mkdir();
         }
