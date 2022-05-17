@@ -1,3 +1,5 @@
-com/start/Main.class
-com/jumpstart/Extractor.class
-com/jumpstart/HtmlParser.class
+com\Parsers\Parser.class
+pdftest\src\main\java\com\fileTypeAnalyzer\detectType.class
+com\start\Main.class
+com\Parsers\HtmlParser.class
+com\Parsers\RtfParser.class
