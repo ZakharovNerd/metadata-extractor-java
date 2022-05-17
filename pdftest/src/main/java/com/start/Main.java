@@ -65,6 +65,7 @@ public class Main {
         }
         String type_of_file = "";
         boolean parsed = false;
+
         for (File file_name : fileList) {
             type_of_file = Detect_type(file_name.getName());//should be file_name.getAbsolutePath()!!!!!!!
             if (type_of_file.equals("html")) {
@@ -77,7 +78,6 @@ public class Main {
                 parsed = true;
             }
             if (parsed) {
-                System.out.println("in cond to moove file in parsed dir");
                 parsed = false;
                 file_name.renameTo(new File(pared_dir, file_name.getName()));
             }
