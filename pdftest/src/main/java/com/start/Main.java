@@ -3,8 +3,10 @@ import com.Parsers.RtfParser;
 import com.Parsers.HtmlParser;
 import com.Parsers.Parser;
 import javax.swing.text.BadLocationException;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.File;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import com.fileTypeAnalyzer.detectType;
@@ -51,21 +53,20 @@ public class Main {
 
     public static void main(String[] args) throws BadLocationException, IOException {
         ArrayList<File> fileList = new ArrayList<>();
-        File pared_dir = new File(args[0]+"/Parsed");
-        File root = new File(args[0]);
+        File root = new File("Files");
+        File pared_dir = new File(root.getAbsolutePath() + "/Parsed");
         if (!pared_dir.exists()) {
             pared_dir.mkdir();
         }
         searchFiles(root, fileList);
         if (fileList.size() == 0) {
+            System.out.println("You have no files to parse");
             return;
         }
         String type_of_file = "";
         boolean parsed = false;
         for (File file_name : fileList) {
-            System.out.println(file_name.getName());
             type_of_file = Detect_type(file_name.getName());//should be file_name.getAbsolutePath()!!!!!!!
-            System.out.println(type_of_file);
             if (type_of_file.equals("html")) {
                 Parser technology = new HtmlParser();
                 technology.Parse(file_name.getAbsolutePath());
