@@ -2,7 +2,6 @@ package com.start;
 import com.Parsers.RtfParser;
 import com.Parsers.HtmlParser;
 import com.Parsers.Parser;
-import pdftest.src.main.java.com.fileTypeAnalyzer.detectType;
 import javax.swing.text.BadLocationException;
 import java.io.IOException;
 import java.io.File;
@@ -13,9 +12,8 @@ import com.fileTypeAnalyzer.detectType;
 
 
 public class Main {
-    public static String detectType(String file_name) throws IOException {
+    public static String Detect_type(String file_name) {
 //        TODO need to write type detector
-<<<<<<< HEAD
 //        String fileType = null;
 //        detectType detect = new detectType();
 //        try {
@@ -48,21 +46,13 @@ public class Main {
             }
         }
 
-        String fileType = null;
-        detectType detect = new detectType();
-        if (detect.detector(file_name, "{\\rtf")) fileType = "rtf";
-        else if (detect.detector(file_name, "<!doctype>")) fileType = "html";
-
-        return fileType;
     }
 
 
     public static void main(String[] args) throws BadLocationException, IOException {
         ArrayList<File> fileList = new ArrayList<>();
-
-        File root = new File("Files");
-        System.out.println(root.getAbsolutePath());
-        File pared_dir = new File(root.getAbsolutePath() + "/Parsed");
+        File pared_dir = new File(args[0]+"/Parsed");
+        File root = new File(args[0]);
         if (!pared_dir.exists()) {
             pared_dir.mkdir();
         }
@@ -75,8 +65,6 @@ public class Main {
         for (File file_name : fileList) {
             System.out.println(file_name.getName());
             type_of_file = Detect_type(file_name.getName());//should be file_name.getAbsolutePath()!!!!!!!
-        for (String file_name : args) {
-            type_of_file = detectType(file_name);
             System.out.println(type_of_file);
             if (type_of_file.equals("html")) {
                 Parser technology = new HtmlParser();
@@ -91,9 +79,6 @@ public class Main {
                 System.out.println("in cond to moove file in parsed dir");
                 parsed = false;
                 file_name.renameTo(new File(pared_dir, file_name.getName()));
-                technology.Parse(file_name);
-            } else if (type_of_file.equals(null)) {
-                System.out.println("input is not html or rtf file");
             }
         }
     }
