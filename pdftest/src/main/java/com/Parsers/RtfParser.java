@@ -20,6 +20,5 @@ public class RtfParser implements Parser {
         } catch (IOException e) {
             System.out.println("IOException occurred when extracting text from RTF file: " + file_name);
         }
-        System.out.println(styledDoc.getText(0, styledDoc.getLength()));
     }
 }
