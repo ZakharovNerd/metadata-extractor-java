@@ -1,5 +1,5 @@
 .vscode
 .idea
 .gitignore
-pdftest/target
+pdftest/target/
 .DS_Store
