@@ -1,4 +1,4 @@
-package com.Parsers;
+package main.java.com.Parsers;
 
 import javax.swing.text.BadLocationException;
 import java.io.IOException;

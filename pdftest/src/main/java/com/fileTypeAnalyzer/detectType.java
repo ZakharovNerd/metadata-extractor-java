@@ -1,4 +1,4 @@
-package com.fileTypeAnalyzer;
+package main.java.com.fileTypeAnalyzer;
 import java.io.*;
 import java.util.Arrays;
 

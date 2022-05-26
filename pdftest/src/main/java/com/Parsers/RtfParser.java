@@ -1,8 +1,8 @@
-package com.Parsers;
+package main.java.com.Parsers;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.rtf.RTFEditorKit;
-import com.Parsers.Parser;
+import main.java.com.Parsers.Parser;
 import org.jsoup.nodes.Element;
 
 import java.io.*;
