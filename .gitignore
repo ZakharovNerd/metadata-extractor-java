@@ -1,2 +1,4 @@
 .vscode
 .idea
+pdftest/target/
+.DS_Store
