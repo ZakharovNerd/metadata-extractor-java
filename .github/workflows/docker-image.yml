@@ -15,8 +15,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag metadata-extractor
-    
-    - name: Run the Docker image
-      run: docker run metadata-extractor
+    - name: Run script.sh
+      run: chmod 777 script.sh && sudo ./script.sh
